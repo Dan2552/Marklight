@@ -234,9 +234,9 @@ public struct Marklight {
 
         let codeFont = Marklight.codeFont(textSize - 5)
         let quoteFont = Marklight.quoteFont(textSize - 5)
-        let boldFont = MarklightFont.boldSystemFont(ofSize: textSize)
-        let italicFont = MarklightFont.italicSystemFont(ofSize: textSize)
-
+        let boldFont = UIFont.init(name: "Avenir-Heavy", size: 14)
+        let italicFont = UIFont.init(name: "Avenir-Oblique", size: 14)
+        
         let hiddenFont = MarklightFont.systemFont(ofSize: 0.1)
         let hiddenColor = MarklightColor.clear
         let hiddenAttributes: [String : Any] = [
